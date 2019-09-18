@@ -1,0 +1,91 @@
+body {
+  background-color: #005DFF;
+}
+
+.enlarge {
+  font-size: 20px;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-duration: 4s;
+          transition-duration: 4s;
+  -webkit-transition-delay: 6s;
+          transition-delay: 6s;
+}
+
+.enlarge:hover {
+  font-size: 36px;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-color: #001f3f;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001f3f;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+.container {
+  -webkit-perspective: 400px;
+          perspective: 400px;
+}
+
+.parent {
+  -webkit-transform: rotateY(-12deg);
+          transform: rotateY(-12deg);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.parent:hover {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+div {
+  overflow: auto;
+}
+
+.orange {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background: #ff5c00;
+}
+
+.limegreen {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background: #7fcb00;
+}
+
+.cyan {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 50px;
+  background: #00b2f8;
+}
+
+.yellow {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background: #ffc600;
+}
+/*# sourceMappingURL=main.css.map */
